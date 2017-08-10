@@ -1,0 +1,25 @@
+{
+  "name": "test-vending-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/test.js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "express": "^4.15.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "mocha": "^3.5.0",
+    "superagent": "^3.5.2",
+    "supertest": "^3.0.0"
+  }
+}
